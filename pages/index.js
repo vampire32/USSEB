@@ -21,7 +21,7 @@ import swa from "../styles/images/swa-min.jpg";
 import min from "../styles/images/-min1.jpg";
 
 import Solor from "../styles/images/solar.jpg";
-import Attendence from "../styles/images/attendence.jpg";
+import Attendence from "../styles/images/bio.jpg";
 import Printer from "../styles/images/printer.jpg";
 import AIO from "../styles/images/aioscanner.jpg";
 import PhotoMachine from "../styles/images/photocopier.jpg";
