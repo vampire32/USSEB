@@ -5,6 +5,9 @@
  .u__section_11 .u-sheet-1 {
      min-height: 800px;
  }
+ .u-section-22 .u-text{
+    word-wrap: normal!important;
+ }
 
  .u__section_11 .u-text-1 {
      font-size: 3.75rem;

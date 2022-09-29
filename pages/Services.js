@@ -65,7 +65,7 @@ const Services = () => {
 								Easily Accessible &amp; Secure
 							</span>
 						</p>
-						<h2 className="u-align-center u-text u-text-palette-3-base u-text-3">
+						<h2 className="u-align-center u-text u-text-palette-3-base u-text-3" style={{paddingBottom:"4rem"}}>
 							Features
 						</h2>
 						<div className="u-expanded-width u-list u-list-1">
@@ -949,7 +949,7 @@ const Services = () => {
 					data-aos="slide-up"
 				>
 					<div className="u-clearfix u-sheet u-valign-middle-xl u-valign-middle-xs u-sheet-1">
-						<div className="u-palette-3-base u-shape u-shape-circle u-shape-1"></div>
+						
 						<div className="u-clearfix u-layout-wrap u-layout-wrap-1">
 							<div className="u-layout">
 								<div className="u-layout-row">
@@ -997,7 +997,7 @@ const Services = () => {
 								alt="USS Enterprise ICT company"
 							/>
 						</div>
-						<h2 className="u-text u-text-1">Security &amp; Surveillances</h2>
+						<h2 className="u-text u-text-1" style={{marginTop:"5rem"}}>Security &amp; Surveillances</h2>
 						<p className="u-text u-text-2">
 							Postal services | Computer surveillance | Surveillance cameras |
 							Telephones | Social network analysis | Aerial surveillance |
