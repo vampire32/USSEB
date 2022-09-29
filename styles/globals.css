@@ -1,0 +1,107 @@
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ .icons {
+   height: 74px;
+   width: 100px;
+   background-image: none;
+   margin: 0 auto;
+   padding: 15px;
+ }
+.float {
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgb(43, 132, 248);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  
+}
+
+.float2 {
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  bottom: 130px;
+  right: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  
+  
+}
+.my-float {
+  margin-top: 26px;
+ 
+  margin-left: 24px;
+}
+@media(max-width:991px){
+  .float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: rgb(43, 132, 248);
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      box-shadow: 2px 2px 3px #999;
+    }
+  
+    .float2 {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 120px;
+      right: 40px;
+      background-color: green;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      
+    }
+  
+    .my-float {
+      margin-top: 18px;
+      padding-right: 6px;
+    }
+
+  
+}
+@media (max-width:576) {
+  .float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #d9c7a4;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      
+    }
+  
+    .float2 {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 120px;
+      right: 40px;
+      background-color: #d9c7a4;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      box-shadow: 2px 2px 3px #999;
+    }
+  
+    .my-float {
+      margin-top: 22px;
+    }
+}
