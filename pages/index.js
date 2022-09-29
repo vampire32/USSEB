@@ -911,15 +911,20 @@ export default function Home() {
 											data-image-height="192"
 										></div>
 										<p className="u-text u-text-black u-text-3">
-											USS Enterprises is one of the fastest emerging IT Solution
-											provider serving in IT industry since 2015 with a wide
-											range of our “Products and Services Portfolio. We believe
-											in working as technology partner and solution provider for
-											our clientele with an experienced and well qualified team
-											of professionals and technology specialists. The key to
-											our success is our Customer Oriented policies, our belief
-											in Consultative Selling and the top of the line Support
-											and Post Sales Services to our valued customers.
+											Establishing a strong and valuable brand that is connected
+											to a reliable business image A strategy consultant who is
+											known for creating and solving customers business
+											challenges through technical advancement and
+											innovation With a broad variety of our Products and
+											Services Portfolio, USS Enterprises is one of the
+											fastest-emerging IT solution providers serving the IT
+											market since 2015. With an experienced and highly skilled
+											team of experts and technology specialists, we believe in
+											serving as our clients technology partners and solution
+											providers. Our customer-focused policies, commitment to
+											consultative selling, and commitment to providing our
+											esteemed clients with the best support and post-sale
+											services are the foundation of our success.
 										</p>
 									</div>
 								</div>
@@ -979,7 +984,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<CEO />
+
 				<section
 					className="u-align-center u-clearfix u-white u-section-13"
 					id="carousel_fb5a"
@@ -1085,7 +1090,7 @@ export default function Home() {
 					</div>
 				</section>
 				<Clients />
-				<div className="u-section-3  " >
+				<div className="u-section-3  ">
 					<Link href="/OurTeam">
 						<a className="u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-2-base u-radius-0 u-btn-1">
 							View More

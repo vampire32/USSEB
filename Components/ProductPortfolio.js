@@ -185,7 +185,7 @@ const ProductPortfolio = (props) => {
 										/
 										<div className="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-3">
 											<div className="u-container-layout u-container-layout-3">
-												<h3 className="u-align-left u-text u-text-17">
+												<h3 className="u-align-left ">
 													<b>
 														<i>
 															<span>{props.BrandName3}</span>
@@ -289,7 +289,7 @@ const ProductPortfolio = (props) => {
 									<div className="u-layout-col">
 										<div className="u-container-style u-layout-cell u-right-cell u-size-20 u-layout-cell-5">
 											<div className="u-container-layout u-container-layout-5">
-												<h3 className="u-align-left u-text u-text-default u-text-24">
+												<h3 className="u-align-left u-text u-text-default u-text-24 font-bold">
 													<span>
 														<span>{props.BrandName4}</span>
 													</span>

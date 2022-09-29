@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
-import {FiInstagram} from "react-icons/fi"
+import { BsLinkedin } from "react-icons/bs";
 import {BsFacebook} from 'react-icons/bs'
 
 const Footer = () => {
@@ -51,11 +51,7 @@ const Footer = () => {
 									<a>About Us</a>
 								</Link>
 							</li>
-							<li>
-								<Link href="/CEOMessage">
-									<a>CEO Message</a>
-								</Link>
-							</li>
+							
 						</ul>
 					</div>
 					<div className="col-md">
@@ -78,7 +74,7 @@ const Footer = () => {
 							<li>
 								<a href="#">
 									<span className="icon-instagram">
-										<FiInstagram size="2em" />
+										<BsLinkedin size="2em" />
 									</span>
 								</a>
 							</li>
