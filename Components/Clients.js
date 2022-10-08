@@ -14,6 +14,23 @@ import Benzir from '../styles/images/benazir.png'
 import Gawader from '../styles/images/Gwadar-Development-Authority-B-23-09-1024x640-removebg-preview.png'
 import Lu from '../styles/images/LUAWMS-Logo-removebg-preview.png'
 import PS  from '../styles/images/pakistanStandard.png' 
+import BIK from '../styles/images/bik-removebg-preview.png'
+import Ranger from '../styles/images/ranger-removebg-preview.png'
+import HEC from '../styles/images/hec-removebg-preview.png'
+import SBP from '../styles/images/SBP-removebg-preview.png'
+import DMC from '../styles/images/DMC_MALIR_LOGO-removebg-preview.png'
+import MUET from '../styles/images/mUETG-removebg-preview.png'
+import NED from '../styles/images/NEDUET_logo-removebg-preview.png'
+import SEVTEA from '../styles/images/moma_revC-removebg-preview.png'
+import Turbat from '../styles/images/turbat-removebg-preview.png'
+import aap from '../styles/images/aap-removebg-preview.png'
+import Livestock from '../styles/images/livestock-removebg-preview.png'
+import norin from '../styles/images/Norin-removebg-preview.png'
+import SMIU from '../styles/images/SMIU_Logo-removebg-preview.png'
+import technical from '../styles/images/techincal-removebg-preview.png'
+
+
+
 import Link from 'next/link';
 export const Clientss=()=>{
 		return (
@@ -32,10 +49,10 @@ export const Clientss=()=>{
 											13
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={BIK} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
-											Provincial Mohtasib Ombudsman, Sindh
+											Board of Intermediate Education, Karachi.
 										</h2>
 									</div>
 								</div>
@@ -45,10 +62,10 @@ export const Clientss=()=>{
 											14
 										</span>
 										<div className="u-icon icons">
-											<Image src={Custom} alt="USS Enterprise ICT company" />
+											<Image src={Ranger} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
-											Model Customs Collectorate, Hyderabad
+											HQ Pakistan Rangers, Sindh.
 										</h2>
 									</div>
 								</div>
@@ -58,11 +75,10 @@ export const Clientss=()=>{
 											15
 										</span>
 										<div className="u-icon icons">
-											<Image src={Benzir} alt="USS Enterprise ICT company" />
+											<Image src={HEC} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
-											Shaheed Mohtarma Benazir Bhutto --Medical University,
-											Larkana
+											Higher Education Commission.
 										</h2>
 									</div>
 								</div>
@@ -72,10 +88,10 @@ export const Clientss=()=>{
 											16
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={SBP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
-											Deputy Commissioner Larkana.
+											State Bank of Pakistan.
 										</h2>
 									</div>
 								</div>
@@ -88,7 +104,7 @@ export const Clientss=()=>{
 											<Image src={AU} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
-											Sindh Agriculture University, Tando Jam
+											Agriculture Research Singh, Tandojam.
 										</h2>
 									</div>
 								</div>
@@ -98,10 +114,10 @@ export const Clientss=()=>{
 											18
 										</span>
 										<div className="u-icon icons">
-											<Image src={EP} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
-											Environmental Protections Agency, GOS
+											Program Co-Ordinator unit, GOS.
 										</h2>
 									</div>
 								</div>
@@ -111,10 +127,10 @@ export const Clientss=()=>{
 											19
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={DMC} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
-											Provincial Mohtasib Ombudsman, Sindh
+											DMC Malir, Karachi.
 										</h2>
 									</div>
 								</div>
@@ -124,10 +140,10 @@ export const Clientss=()=>{
 											20
 										</span>
 										<div className="u-icon icons">
-											<Image src={Custom} alt="USS Enterprise ICT company" />
+											<Image src={MUET} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
-											Model Customs Collectorate, Hyderabad
+											Centre of Excellence in Art & Design, MUET Jamshoro.
 										</h2>
 									</div>
 								</div>
@@ -137,11 +153,10 @@ export const Clientss=()=>{
 											21
 										</span>
 										<div className="u-icon icons">
-											<Image src={Benzir} alt="USS Enterprise ICT company" />
+											<Image src={MUET} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
-											Shaheed Mohtarma Benazir Bhutto --Medical University,
-											Larkana
+											Mehran university of Engineering & Technology, Jamshoro.
 										</h2>
 									</div>
 								</div>
@@ -151,10 +166,10 @@ export const Clientss=()=>{
 											22
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={NED} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
-											Deputy Commissioner Larkana.
+											NED University of Engineering & Technology.
 										</h2>
 									</div>
 								</div>
@@ -164,10 +179,10 @@ export const Clientss=()=>{
 											23
 										</span>
 										<div className="u-icon icons">
-											<Image src={AU} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
-											Sindh Agriculture University, Tando Jam
+											Plant Protection, GOP.
 										</h2>
 									</div>
 								</div>
@@ -177,10 +192,11 @@ export const Clientss=()=>{
 											24
 										</span>
 										<div className="u-icon icons">
-											<Image src={EP} alt="USS Enterprise ICT company" />
+											<Image src={SEVTEA} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
-											Environmental Protections Agency, GOS
+											Sindh Technical Education & Vocational Training Authority
+											(STEVTA).
 										</h2>
 									</div>
 								</div>
@@ -190,10 +206,10 @@ export const Clientss=()=>{
 											25
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
-											Deputy Commissioner Larkana.
+											Sindh rural support Organization.
 										</h2>
 									</div>
 								</div>
@@ -203,10 +219,10 @@ export const Clientss=()=>{
 											26
 										</span>
 										<div className="u-icon icons">
-											<Image src={AU} alt="USS Enterprise ICT company" />
+											<Image src={BIK} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
-											Sindh Agriculture University, Tando Jam
+											Board of Secondary Education, Karachi.
 										</h2>
 									</div>
 								</div>
@@ -216,10 +232,10 @@ export const Clientss=()=>{
 											27
 										</span>
 										<div className="u-icon icons">
-											<Image src={EP} alt="USS Enterprise ICT company" />
+											<Image src={Turbat} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
-											Environmental Protections Agency, GOS
+											University of Turbat.
 										</h2>
 									</div>
 								</div>
@@ -229,10 +245,10 @@ export const Clientss=()=>{
 											28
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={aap} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
-											Provincial Mohtasib Ombudsman, Sindh
+											Provincial Program Coordinator, (AAP).
 										</h2>
 									</div>
 								</div>
@@ -242,10 +258,10 @@ export const Clientss=()=>{
 											29
 										</span>
 										<div className="u-icon icons">
-											<Image src={Custom} alt="USS Enterprise ICT company" />
+											<Image src={Livestock} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
-											Model Customs Collectorate, Hyderabad
+											-Provincial Program Coordinator, (Live Stock).
 										</h2>
 									</div>
 								</div>
@@ -255,11 +271,10 @@ export const Clientss=()=>{
 											30
 										</span>
 										<div className="u-icon icons">
-											<Image src={Benzir} alt="USS Enterprise ICT company" />
+											<Image src={norin} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
-											Shaheed Mohtarma Benazir Bhutto --Medical University,
-											Larkana
+											NORIN Cancer Hospital, Nawabshah.
 										</h2>
 									</div>
 								</div>
@@ -269,10 +284,10 @@ export const Clientss=()=>{
 											31
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
-											Deputy Commissioner Larkana.
+											Law Department, GOS.
 										</h2>
 									</div>
 								</div>
@@ -282,10 +297,10 @@ export const Clientss=()=>{
 											32
 										</span>
 										<div className="u-icon icons">
-											<Image src={AU} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
-											Sindh Agriculture University, Tando Jam
+											SGA & DC, GOS.
 										</h2>
 									</div>
 								</div>
@@ -295,10 +310,10 @@ export const Clientss=()=>{
 											33
 										</span>
 										<div className="u-icon icons">
-											<Image src={EP} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
-											Environmental Protections Agency, GOS
+											-Directorate General of Immigrants & Passport, GOP.
 										</h2>
 									</div>
 								</div>
@@ -308,10 +323,10 @@ export const Clientss=()=>{
 											34
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
-											Provincial Mohtasib Ombudsman, Sindh
+											Protectorate of Emigrants, GOP
 										</h2>
 									</div>
 								</div>
@@ -321,10 +336,10 @@ export const Clientss=()=>{
 											35
 										</span>
 										<div className="u-icon icons">
-											<Image src={Custom} alt="USS Enterprise ICT company" />
+											<Image src={SMIU} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
-											Model Customs Collectorate, Hyderabad
+											Sindh Madressatul Islam University.
 										</h2>
 									</div>
 								</div>
@@ -334,11 +349,10 @@ export const Clientss=()=>{
 											36
 										</span>
 										<div className="u-icon icons">
-											<Image src={Benzir} alt="USS Enterprise ICT company" />
+											<Image src={technical} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
-											Shaheed Mohtarma Benazir Bhutto --Medical University,
-											Larkana
+											-Sindh Board of Technical Education, Khi.
 										</h2>
 									</div>
 								</div>
@@ -348,10 +362,10 @@ export const Clientss=()=>{
 											37
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
-											Deputy Commissioner Larkana.
+											Inter Board of Committee Chairman, GOP.
 										</h2>
 									</div>
 								</div>
@@ -361,10 +375,10 @@ export const Clientss=()=>{
 											38
 										</span>
 										<div className="u-icon icons">
-											<Image src={AU} alt="USS Enterprise ICT company" />
+											<Image src={SEVTEA} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
-											Sindh Agriculture University, Tando Jam
+											Ministry of Ports & Shipping Wing.
 										</h2>
 									</div>
 								</div>
@@ -374,10 +388,10 @@ export const Clientss=()=>{
 											39
 										</span>
 										<div className="u-icon icons">
-											<Image src={EP} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
-											Environmental Protections Agency, GOS
+											Costal Development Department, GOS.
 										</h2>
 									</div>
 								</div>
@@ -387,79 +401,28 @@ export const Clientss=()=>{
 											40
 										</span>
 										<div className="u-icon icons">
-											<Image src={DC} alt="USS Enterprise ICT company" />
+											<Image src={AU} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
-											Provincial Mohtasib Ombudsman, Sindh
+											Agriculture Extensions Sindh, Hyderabad.
 										</h2>
 									</div>
 								</div>
-								<div className="u-align-center u-container-style u-custom-item u-list-item u-palette-1-base u-radius-20 u-repeater-item u-shape-round u-list-item-8">
-									<div className="u-container-layout u-similar-container u-container-layout-8">
-										<span className="u-custom-font u-custom-item u-font-lato u-text u-text-16">
-											41
-										</span>
-										<div className="u-icon icons">
-											<Image src={Custom} alt="USS Enterprise ICT company" />
-										</div>
-										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
-											Model Customs Collectorate, Hyderabad
-										</h2>
-									</div>
-								</div>
+								
 								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-9">
 									<div className="u-container-layout u-similar-container u-container-layout-9">
 										<span className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-18">
-											42
+											41
 										</span>
 										<div className="u-icon icons">
-											<Image src={Benzir} alt="USS Enterprise ICT company" />
+											<Image src={GOP} alt="USS Enterprise ICT company" />
 										</div>
 										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
-											Shaheed Mohtarma Benazir Bhutto --Medical University,
-											Larkana
+											Live Stock, Section GOS.
 										</h2>
 									</div>
 								</div>
-								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
-									<div className="u-container-layout u-similar-container u-container-layout-4">
-										<span className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-8">
-											43
-										</span>
-										<div className="u-icon icons">
-											<Image src={DC} alt="" />
-										</div>
-										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
-											Deputy Commissioner Larkana.
-										</h2>
-									</div>
-								</div>
-								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-5">
-									<div className="u-container-layout u-similar-container u-container-layout-5">
-										<span className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-10">
-											44
-										</span>
-										<div className="u-icon icons">
-											<Image src={AU} alt="USS Enterprise ICT company" />
-										</div>
-										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
-											Sindh Agriculture University, Tando Jam
-										</h2>
-									</div>
-								</div>
-								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-6">
-									<div className="u-container-layout u-similar-container u-container-layout-6">
-										<span className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-12">
-											45
-										</span>
-										<div className="u-icon icons">
-											<Image src={EP} alt="USS Enterprise ICT company" />
-										</div>
-										<h2 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
-											Environmental Protections Agency, GOS
-										</h2>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
