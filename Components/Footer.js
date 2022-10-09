@@ -79,7 +79,7 @@ const Footer = () => {
 								</a>
 							</li>
 							<li className="ml-16">
-								<a href="https://www.facebook.com/USS-Enterprises-101631834747302/" target="_blank" rel="noreferrer">
+								<a href="https://www.facebook.com/USS-Enterprises-101631834747302/" target="_blank" rel="noopener noreferrer">
 									<span className="icon-facebook">
 										<BsFacebook size="2em" />
 									</span>

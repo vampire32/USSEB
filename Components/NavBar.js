@@ -53,6 +53,12 @@ const NavBar = (props) => {
 							</Nav.Link>
 							&nbsp;&nbsp;
 							<Nav.Link style={{ color: Color }}>
+								<Link href="/Furniture">
+									<a style={{ color: Color }}> Furniture</a>
+								</Link>
+							</Nav.Link>
+							&nbsp;&nbsp;
+							<Nav.Link style={{ color: Color }}>
 								<Link href="/OurClients">
 									<a style={{ color: Color }}>Our Clients</a>
 								</Link>

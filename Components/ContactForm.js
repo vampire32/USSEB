@@ -93,6 +93,7 @@ const ContactForm = () => {
 												className="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form m-40"
 												action="https://formsubmit.co/78bc9731ca3b708afe66357b80608917"
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												<div className="u-form-group u-form-name">
 													<label
@@ -173,7 +174,7 @@ const ContactForm = () => {
 										className="u-social-url"
 										href="https://www.facebook.com/USS-Enterprises-101631834747302/"
 										target="_blank"
-										rel="noreferrer"
+										rel="noopener noreferrer"
 									>
 										<span className="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-4">
 											<svg className="u-svg-link" viewBox="0 0 112 112">
@@ -197,10 +198,10 @@ const ContactForm = () => {
 										className="u-social-url"
 										href="/"
 										target="_blank"
-										rel="noreferrer"
+										rel="noopener noreferrer"
 									>
 										<span className="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-4">
-											<BsLinkedin size="2.3rem"/>
+											<BsLinkedin size="2.3rem" />
 										</span>
 									</a>
 								</div>
