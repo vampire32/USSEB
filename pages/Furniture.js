@@ -13,10 +13,39 @@ import PosterDown from '../Components/PosterDown';
 import Treding from '../Components/Treding';
 import Who from '../Components/Who';
 import Testimonials from '../Components/Testimonials';
+import Head from 'next/head';
 
 const Furniture = () => {
   return (
 		<div>
+			<Head>
+				<title>USS Enterprise Furniture</title>
+				<meta
+					name="description"
+					content="USS Enterprises is one of the fastest emerging IT Solution
+				 provider serving in IT industry since 2015 with a wide range of our “Products and Services Portfolio."
+				/>
+				<meta
+					property="og:title"
+					content="USS Enterprise An ICT Solution C​ompany"
+				></meta>
+				<meta
+					property="og:description"
+					content="USS Enterprises is one of the fastest emerging IT Solution
+				 provider serving in IT industry since 2015 with a wide range of our “Products and Services Portfolio."
+				/>
+				<meta
+					property="og:url"
+					content="https://www.usseb.com/Furniture"
+				></meta>
+				<meta property="og:type" content="website"></meta>
+				<meta
+					property="og:image"
+					content="https://mywebsite.net/assets/opengraph/theogimage.jpg"
+				/>
+
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 			<div className="hero_area">
 				<NavBar />
 				<Home />
@@ -27,7 +56,7 @@ const Furniture = () => {
 
 			<Poster2 />
 			<Treding />
-            <Testimonials/>
+			<Testimonials />
 			<section
 				className="u-clearfix u-section-11"
 				data-aos="slide-up"
@@ -80,7 +109,7 @@ const Furniture = () => {
 					</div>
 				</div>
 			</section>
-            
+
 			<ContactForm />
 			<Footer />
 		</div>
