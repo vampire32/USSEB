@@ -1,23 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
 
-@media (min-width: 500px) {
-    .col-sm-6 {
-        width: 50%;
-    }
-}
-
-html,
-body {
-    height: 100%;
-    min-height: 18em;
-}
 
 .frontend-side {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/fur-back.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../styles/images/furback.jpg");
 }
 
 .uiux-side {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/ict-back.jpeg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../styles/images/ictback.jpeg");
+}
+.section1{
+    
 }
 
 .split-pane {

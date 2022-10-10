@@ -1,10 +1,13 @@
 import Head from 'next/head';
 import Link from 'next/link'
 import React from 'react'
+import Split from '../Components/Split';
+import Furniture from './Furniture';
 
-const index = () => {
+
+const Home = () => {
   return (
-		<div className="row">
+		<div>
 			<Head>
 				<title>USS Enterprise An ICT Solution C​ompany</title>
 				<meta
@@ -30,41 +33,10 @@ const index = () => {
 
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-
-			<div className="split-pane col-md-6 uiux-side">
-				<div>
-					<div className="text-content">
-						<h2 className="bold">Vist</h2>
-						<h1 className="text-[30px]">
-							USS Enterprise ICT and Consultancy Company
-						</h1>
-					</div>
-					<a className="button">
-						<Link href="/UssEnterprisesICT">Show the Site</Link>
-					</a>
-				</div>
-			</div>
-			<div className="split-pane col-md-6 frontend-side">
-				<div>
-					<div className="text-content">
-						<h2 className="bold">Visit</h2>
-						<h1 className="text-[30px]">USS Furniture</h1>
-					</div>
-					<a className="button">
-						<Link href="/Furniture">Show The Site</Link>
-					</a>
-				</div>
-			</div>
-			<div id="split-pane-or">
-				<div>
-					<img
-						className="imgg"
-						src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74452/bcr-white.png"
-					/>
-				</div>
-			</div>
+			{/* <Split /> */}
+			<Split/>
 		</div>
 	);
 }
 
-export default index
+export default Home

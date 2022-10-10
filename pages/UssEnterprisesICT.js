@@ -50,7 +50,7 @@ import Microsoft from "../styles/images/download-removebg-preview.png";
 import Firewall from "../styles/images/firewalls.png";
 import Link from "next/link";
 
-export default function Home() {
+export default function UssEnterprisesICT() {
 	const [loading, setloading] = useState(false);
 	useEffect(() => {
 		AOS.init({
