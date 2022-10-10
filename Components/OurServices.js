@@ -90,7 +90,7 @@ const OurServices = () => {
 				<div className="services_section2 layout_padding" data-aos="fade-up">
 					<div className="row  company-title">
 						{services.map((item) => (
-							<div key={item.title} className="col-lg-4 col-sm-6 pb-10">
+							<div key={item.title} className="col-lg-4 col-md-4 pb-10">
 								<div className="icon_1">
 									<div className="img_adjust">
 										<Image
@@ -103,13 +103,13 @@ const OurServices = () => {
 								</div>
 								<h2 className="furnitures_text">{item.title}</h2>
 								<p className="dummy_text">{item.descriptiion}</p>
-								<div className="read_bt_main">
-									<div className="read_bt">
-										<Link href="tel:+922134390018">Call Now</Link>
-									</div>
-								</div>
 							</div>
 						))}
+						<div className="read_bt_main">
+							<div className="read_bt">
+								<Link href="tel:+922134390018">Call Now</Link>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -22,6 +22,7 @@ import Loader from '../Components/Loader'
 import Floating from '../Components/Floating'
 import Head from 'next/head'
 import '../styles/LineIcons.css'
+import '../styles/Front.css'
 
 
 

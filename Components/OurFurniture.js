@@ -10,6 +10,7 @@ import img8 from "../styles/images/MachineRoom5.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const OurFurniture = () => {
 	useEffect(() => {
@@ -48,9 +49,6 @@ const OurFurniture = () => {
 							monetary worth to us. If you want to buy something, you can
 							visit our shop
 						</p>
-						<a href="tel:0503338692" data-aos="fade-up" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 				</div>
 
@@ -65,9 +63,6 @@ const OurFurniture = () => {
 							Organization and want to buy new one from market then you can
 							Contact now and save your time and budget.
 						</p>
-						<a href="tel:0503338692" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 					<div className=" col-md-1 "></div>
 					<div className=" col-md-5 " data-aos="fade-right">
@@ -98,9 +93,6 @@ const OurFurniture = () => {
 							tables, shop online or visit our nearest store. Contact now and
 							sell your used household items.
 						</p>
-						<a href="tel:0503338692" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 				</div>
 				<div className=" row g-0 bg-gradient-to-r from-[#232b79] to-purple-500  p-10 pt-16">
@@ -113,9 +105,6 @@ const OurFurniture = () => {
 							tired from your Organization and want to buy new one from market
 							then you can Contact now and save your time and budget.
 						</p>
-						<a href="tel:0503338692" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 					<div className=" col-md-1 "></div>
 					<div className=" col-md-5 " data-aos="fade-right">
@@ -147,9 +136,6 @@ const OurFurniture = () => {
 							at affordable price. USS has the best and latest range shop online
 							or visit our nearest store. Contact now
 						</p>
-						<a href="tel:0503338692" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 				</div>
 				<div className=" row g-0 bg-gradient-to-r from-[#232b79] to-purple-500  p-10 pt-16">
@@ -162,9 +148,6 @@ const OurFurniture = () => {
 							Organization and want to buy new one from market then you can
 							Contact now and save your time and budget.
 						</p>
-						<a href="tel:0503338692" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 					<div className=" col-md-1 "></div>
 					<div className=" col-md-5 " data-aos="fade-right">
@@ -194,9 +177,6 @@ const OurFurniture = () => {
 							and latest range , shop online or visit our nearest store. Contact
 							now .
 						</p>
-						<a href="tel:0503338692" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 				</div>
 				<div className=" row g-0 bg-gradient-to-r from-[#232b79] to-purple-500  p-10 pt-16">
@@ -211,14 +191,16 @@ const OurFurniture = () => {
 							Organization and want to buy new one from market then you can
 							Contact now and save your time and budget.
 						</p>
-						<a href="tel:0503338692" className="btnnn">
-							CALL NOW
-						</a>
 					</div>
 					<div className=" col-md-1 "></div>
 					<div className=" col-md-5 " data-aos="fade-right">
 						<div className="furniture_imge ">
 							<Image src={img8} alt="Used home appliances buyer Abu Dhabi" />
+						</div>
+					</div>
+					<div className="read_bt_main">
+						<div className="read_bt">
+							<Link href="tel:+922134390018">Call Now</Link>
 						</div>
 					</div>
 				</div>

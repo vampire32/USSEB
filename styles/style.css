@@ -1238,13 +1238,15 @@ a:focus {
 }
 
 .read_bt_main {
-  width: 60%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   text-align: center;
 }
 
 .read_bt {
-  width: 100%;
+  width: 30%;
   float: left;
   margin-top: 10px;
 }
