@@ -56,7 +56,7 @@ const Furniture = () => {
 
 			<Poster2 />
 			<Treding />
-			<Testimonials />
+			
 			<section
 				className="u-clearfix u-section-11"
 				data-aos="slide-up"

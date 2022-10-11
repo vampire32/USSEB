@@ -35,7 +35,7 @@ const NavBar = (props) => {
 					<Navbar.Collapse id="basic-navbar-nav ">
 						<Nav className="justify-content-center flex-grow-1 navbar-design ml-auto align-items-center    ">
 							<Nav.Link style={{ color: Color }}>
-								<Link href="/UssEnterprisesICT">
+								<Link href="/">
 									<a style={{ color: Color }}>Home</a>
 								</Link>
 							</Nav.Link>
@@ -55,6 +55,12 @@ const NavBar = (props) => {
 							<Nav.Link style={{ color: Color }}>
 								<Link href="/Furniture">
 									<a style={{ color: Color }}> Furniture</a>
+								</Link>
+							</Nav.Link>
+							&nbsp;&nbsp;
+							<Nav.Link style={{ color: Color }}>
+								<Link href="/UssEnterprisesICT">
+									<a style={{ color: Color }}>USS Enterprises </a>
 								</Link>
 							</Nav.Link>
 							&nbsp;&nbsp;

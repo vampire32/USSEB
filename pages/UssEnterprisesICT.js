@@ -1094,7 +1094,7 @@ export default function UssEnterprisesICT() {
 				</section>
 				<Clients />
 				<div className="u-section-3  ">
-					<Link href="/OurTeam">
+					<Link href="/OurClients">
 						<a className="u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-2-base u-radius-0 u-btn-1">
 							View More
 						</a>
