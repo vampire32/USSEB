@@ -13,7 +13,7 @@ const Split = () => {
 						<div className="text-content">
 							<h2 className="bold">Vist</h2>
 							<h1 className="text-[30px]">
-								USS Enterprise ICT and Consultancy Company
+								USS Enterprises ICT and Consultancy Company
 							</h1>
 						</div>
 						<a className="button">
