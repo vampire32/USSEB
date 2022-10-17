@@ -40,11 +40,11 @@ const Who = () => {
 					usseb/furniture.com or send us a WhatsApp message.
 				</p>
 			</div>
-			<div className="get_bt_main">
+			{/* <div className="get_bt_main">
 				<div className="get_bt">
 					<Link href="/contactus">Get A Quote</Link>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }

@@ -10,7 +10,7 @@ const Loader = () => {
 				<div className="circle"></div>
 				<div className="circle"></div>
 				
-				<span>Uss   Enterprise</span>
+				<span>Uss   Enterprises</span>
 			</div>
 		</div>
 	

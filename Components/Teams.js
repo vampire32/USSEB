@@ -68,7 +68,7 @@ const Teams = () => {
 								/>
 							</div>
 							<h3 className="mb-1 text-1xl font-bold tracking-tight text-gray-900 ">
-								<a href="">Abdul Rasool</a>
+								<a href="">Zubair Ahmed Bhutto</a>
 							</h3>
 							<p>Project Manager</p>
 						</div>
