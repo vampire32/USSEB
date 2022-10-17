@@ -11,7 +11,7 @@ const Split = () => {
 				<div className="split-pane col-md-6 uiux-side">
 					<div>
 						<div className="text-content">
-							<h2 className="bold">Vist</h2>
+							<h2 className="bold">Visit</h2>
 							<h1 className="text-[30px]">
 								USS Enterprises ICT and Consultancy Company
 							</h1>
