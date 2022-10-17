@@ -117,7 +117,7 @@ export default function UssEnterprisesICT() {
 					<NavBar theme="dark" color="white" />
 					<div className="u-clearfix u-sheet u-sheet-1">
 						<h1 className="u-align-left u-text u-text-palette-3-base u-text-1">
-							<b>UniversalUniversal Systemic Solution Enterprise</b>
+							<b>Universal Systemic Solution Enterprise</b>
 							<br />
 							<b style={{ color: "white" }}>an ICT solution c​ompany</b>
 						</h1>
